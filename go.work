@@ -1,0 +1,13 @@
+go 1.21.4
+
+use (
+	"./0 - Lab/fibonacci"
+	"./0 - Lab/wasm"
+	"./1 - Pacotes"
+	"./16 - Interfaces/1 - Introdução"
+	"./17 - Aplicação de linha de comando"
+	"./19 - Testes automatizados/1 - Introdução"
+	"./19 - Testes automatizados/2 - Testes avançados"
+	"./6 - Structs"
+	"./9 - Arrays e slices"
+)
