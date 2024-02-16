@@ -1,7 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"interfaces/formas"
+
+	"github.com/emersonleite/golang_labs/fibonacci"
 )
 
 func main() {
@@ -17,5 +20,9 @@ func main() {
 
 	formas.EscreverArea(circ)
 	formas.EscreverArea(ret)
+
+	_, fibonacci := fibonacci.CalculateMany(10)
+
+	fmt.Println(fibonacci)
 
 }
